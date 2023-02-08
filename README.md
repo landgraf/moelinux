@@ -5,7 +5,7 @@ Layer to build Openembedded based distro for MangoPi MQ Pro board
 ## Setup build environment
 
 Install [repo](https://gerrit.googlesource.com/git-repo) tool (most probably available in your linux distribution)
-Install (Yocto Project build requirements)[https://docs.yoctoproject.org/ref-manual/system-requirements.html]
+Install [Yocto Project build requirements](https://docs.yoctoproject.org/ref-manual/system-requirements.html)
 ```text
 mkdir moelinux
 cd moelinux
