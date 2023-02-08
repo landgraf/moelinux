@@ -8,6 +8,6 @@ IMAGE_INSTALL:append = " ${@bb.utils.contains('MACHINE_FEATURES', 'bluetooth', '
 IMAGE_INSTALL:append = " ${@bb.utils.contains('MACHINE_FEATURES', 'wifi', 'networkmanager-wifi networkmanager-nmcli', '', d)} "
 
 EXTRA_IMAGE_FEATURES:append = " ssh-server-dropbear"
-
+EXTRA_IMAGE_FEATURES:remove = " package-management"
 
 PACKAGECONFIG:pn-networkmanager:remove =" ${@bb.utils.contains('MACHINE_FEATURES', 'wifi' ' ifupdown dnsmasq ', '', d}}"
