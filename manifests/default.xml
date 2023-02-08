@@ -18,7 +18,7 @@ SPDX-FileCopyrightText: <pavel@zhukoff.net>
 	<project name="bitbake" remote="openembedded" revision="master" path="bitbake" />
 	<project name="openembedded-core" remote="openembedded" revision="master" path="core" />
 	<project name="meta-openembedded" remote="openembedded" revision="master" path="meta-openembedded" />
-	<project name="riscv/meta-riscv" remote="github" revision="master" path="meta-riscv" />
+	<project name="landgraf/meta-riscv.git" remote="github" revision="797c1e804b0ab2955cb34b9c81c3546f20572bdd" path="meta-riscv" />
 
 	<project name="landgraf/moelinux.git" remote="github" revision="main" path="." />
 </manifest>
