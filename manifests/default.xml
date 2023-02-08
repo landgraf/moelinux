@@ -20,5 +20,5 @@ SPDX-FileCopyrightText: <pavel@zhukoff.net>
 	<project name="meta-openembedded" remote="openembedded" revision="master" path="meta-openembedded" />
 	<project name="landgraf/meta-riscv.git" remote="github" revision="797c1e804b0ab2955cb34b9c81c3546f20572bdd" path="meta-riscv" />
 
-	<project name="landgraf/moelinux.git" remote="github" revision="main" path="." />
+	<project name="landgraf/moelinux.git" remote="github" revision="master" path="." />
 </manifest>
