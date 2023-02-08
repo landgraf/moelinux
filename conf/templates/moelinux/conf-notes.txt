@@ -1,0 +1,15 @@
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Supported targets:
+- moelinux-image-base
+
+Supported machines (first is the default):
+- mangopi-mq-pro
+
+MACHINE variable can be set up in conf/local.conf file under build directory
+or via command line, e.g.:
+
+    $ MACHINE=<supported_machine> bitbake <target>
