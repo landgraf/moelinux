@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-License-Identifier: MIT
+SPDX-FileCopyrightText: <pavel@zhukoff.net>
+-->
+<manifest>
+	<notice>
+
+		Thank you for building moe(MangoPi Open Embedded) Linux distribution.
+		I don't know the reason why somebody would build it but anyway... Have fun!
+		-- Pavel
+
+	</notice>
+
+	<remote name="github" fetch="https://github.com" />
+	<remote name="openembedded" fetch="git://git.openembedded.org" />
+
+	<project name="bitbake" remote="openembedded" revision="master" path="bitbake" />
+	<project name="openembedded-core" remote="openembedded" revision="master" path="core" />
+	<project name="meta-openembedded" remote="openembedded" revision="master" path="meta-openembedded" />
+	<project name="riscv/meta-riscv" remote="github" revision="master" path="meta-riscv" />
+
+	<project name="landgraf/moelinux.git" remote="github" revision="main" path="." />
+</manifest>
