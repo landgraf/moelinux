@@ -5,6 +5,7 @@ You can now run 'bitbake <target>'
 
 Supported targets:
 - moelinux-image-base
+- moelinux-image-user
 
 Supported machines (first is the default):
 - mangopi-mq-pro
@@ -15,5 +16,5 @@ or via command line, e.g.:
     $ MACHINE=<supported_machine> bitbake <target>
 
 tl;dr:
-    $ bitbake moelinux-image-base
+    $ bitbake moelinux-image-user
 
