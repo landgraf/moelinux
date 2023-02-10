@@ -1,0 +1,11 @@
+[Unit]
+Description=Data mount
+
+[Mount]
+What=/dev/disk/by-label/@LABEL@
+Where=@MOUNTPOINT@
+Type=auto
+Options=defaults
+
+[Install]
+WantedBy=local-fs.target
